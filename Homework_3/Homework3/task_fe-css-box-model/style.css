@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 60px;
+}
+body{
+    font-size: 35px;
+    margin: 10px;
+    border: 20px;
+
+}
+p{
+    margin-top: 40px;
+    border: 5px solid #fb1717;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(237, 229, 214);
+}
+span{
+    border: 5px solid blue;
+   }
+   img{
+    display: block;
+    width: 80%;
+    height: 80%;
+   }
