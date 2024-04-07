@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+ 
+        <h1 >Написать письмо Санта Клаусу.</h1>
+
+        <form  method="post" >
+    
+    <div>
+        Напиши письмо дедушке Санте:
+    </div>
+    <textarea name="letter" id="" cols="30" rows="10" required></textarea>
+    <p>онлайн регистрация
+    </p>
+    
+    <div>
+        Введите ФИ
+        <input name="name" placeholder="фамилия имя" required>
+    </div>
+    <br>
+    <div>
+        Дата рождения
+        <input type ="date" name ="birth-date" id="birth-date" required>
+   <label for="birth-date"></label>
+    </div>
+    <br>
+    <div>
+    Пол:
+    </div>
+    <div>
+    <input type="radio" name="gender" value="male" id="gender1" >
+    <label for="gender1">мальчик</label>
+    </div>
+    <div>
+        <input type="radio" name="gender" value="female" id="gender2">
+        <label for="gender2">девочка</label>
+    </div>
+    <br>
+    <div>
+        <label for="login">
+            Логин
+            <input type="login" placeholder="введи логин" id="login"required>
+        </label>
+    </div>
+    <br>
+    <div>
+        <label for>
+            Пароль
+            <input type="password" placeholder="введи пароль" required>
+        </label>
+    </div>
+    <br>
+    <div>
+    <button type="reset">Отменить</button>
+    </div>
+</form>
+<button onclick="window.location.href='greetings.html';">Отправить</button>
+</body>
+</html>
