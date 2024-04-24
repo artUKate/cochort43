@@ -1,0 +1,39 @@
+body {
+    background-color: #020e66ea;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .joke-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #929aa2;
+    color: #fff;
+    border-style: inherit;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+  }
+  
+  .btn:hover {
+    background-color: #f67002;
+color: black;
+  }
+  
+  .logo{
+   width:  300px;
+   height: auto;
+  }
